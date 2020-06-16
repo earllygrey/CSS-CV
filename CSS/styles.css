@@ -1,0 +1,181 @@
+/*** Colors #f2a365 #30475e #222831 #ececec ***/
+/*****************TAG SELECTOR********************/
+body {
+  color: #222831;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #f2a365;
+  font-family: 'Caveat', cursive;
+  font-size: 5.5rem;
+  margin: 50px auto 0 auto;
+  padding: 5px;
+}
+
+h2 {
+  color: #222831;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #30475e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #30475e;
+  border-width: 10px;
+  margin: 50px auto;
+  width: 7%;
+}
+
+p {
+  color: #222831;
+}
+
+a {
+  color: #ececec;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #30475e;
+}
+
+/*****************CLASS SELECTOR********************/
+.topContainer {
+  background-color: #30475e;
+  opacity: .99;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.profile {
+  padding: 50px;
+}
+
+.intro {
+  line-height: 2;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+}
+
+.topcloud {
+  position: absolute;
+  left: 920px;
+  bottom: 550px;
+}
+
+.bottomcloud {
+  position: absolute;
+  right: 890px;
+  bottom: 240px;
+}
+
+.middleContainer {
+  background-color: #ececec;
+  padding: 20px;
+  text-align: center;
+}
+
+.middleTitles {
+  color: #f2a365
+}
+
+.skill-row {
+  line-height: 1.4;
+  margin: 50px auto 150px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.webImage {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.iOSImage {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.bottomContainer {
+  background-color: #f2a365;
+  color: #222831;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.bottomTitles {
+  color: #30475e;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.logos {
+  margin: 10px 20px;
+}
+
+.button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ECECEC;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 13px;
+  background-color: #30475E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background: #30475E;
+  border: solid #F2A365 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/*****************ID SELECTOR********************/
+#web {
+  margin-top: 0;
+  color: #30475e;
+}
+
+#topBg {
+  max-width: 25%;
+  height: auto;
+  border: solid 10px #ececec;
+  border-radius: 20px;
+  margin: 20px auto 59px auto;
+}
+
+#ios {
+  color: white;
+  opacity: .99;
+  margin: 3px;
+}
+
+#profile {
+  border-radius: 100%;
+}
